@@ -1,0 +1,4 @@
+FROM scratch
+
+COPY build/hello /usr/local/bin/hello
+ENTRYPOINT [ "hello" ]
